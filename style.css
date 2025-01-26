@@ -66,7 +66,7 @@ h1,
 h2,
 h3 {
     color: var(--clr-neutral-900);
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .wrapper {
@@ -81,6 +81,20 @@ h3 {
 header {
     text-align: center;
     margin-block: 6rem;
+}
+
+h1 {
+    font-weight: var(--fw-light);
+    font-size: var(--fs-900);
+}
+
+h1 span {
+    font-weight: var(--fw-bold);
+}
+
+
+header p {
+    font-size: var(--fs-400);
 }
 
 .layout-grid {
@@ -107,8 +121,19 @@ header {
     box-shadow: 0 1rem 1.5rem -0.5rem rgb(0 50 100 / 0.1);
 }
 
+.card__title {
+    font-size: var(--fs-600);
+}
+
+.card__image {
+    display: block;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+
 .border-teal {
-    border-color: var(--clr-teal)
+    border-color: var(--clr-teal);
+    margin: 0;
 }
 
 .border-red {
